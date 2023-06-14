@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        table{
+            width: 300px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        td.num {
+            text-align: right;
+        }
+        thead {
+            background-color: aqua;
+            color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: black;
+        }
+        tr:nth-child(odd) {
+            background-color: rgb(192, 192, 219);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>estado</th>
+                <th>populaçao</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">41 262 199</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">19 597 330</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">15 989 929</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
