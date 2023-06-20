@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>  
+    <form action="formulario.php" method="post" autocomplete="on" >
+        <h1>formulario</h1>
+        <p>
+            <label for="inome">nome:</label>
+            <input type="text" name="nome" id="inome" required placeholder="digite o nome" autocomplete="username">
+        </p> 
+         <p>
+            <label for="isenha">senha:</label>
+            <input type="password" name="senha" id="isenha" required minlength="5" placeholder="digite a senha" autocomplete="current-password">
+        </p>
+        <p>
+            <label for="iadress">endereço:</label>
+            <input type="text" name="adress" id="iadress" placeholder="digite o endereço" autocomplete="address-level1" required>
+        </p>
+        <p><input type="submit" value="enviar"></p>
+    </form>
+</body>
+</html>
