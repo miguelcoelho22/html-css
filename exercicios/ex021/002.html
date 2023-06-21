@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <form action="formulario.php" autocomplete="on" method="get">
+        <fieldset>
+            <legend>esportes</legend>
+            <input type="checkbox" name="fut" id="ifut"><label for="ifut">futebol</label><br>
+            <input type="checkbox" name="ten" id="iten"><label for="iten">tenis</label><br>
+            <input type="checkbox" name="nat" id="inat"><label for="inat">nataçao</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+
+        <p>
+            <label for="iest">estado:</label>
+            <select name="est" id="iest">
+                    <optgroup label="mais populosos">
+                        <option value="mg">minas gerais</option>
+                        <option value="sp">sao paulo</option>
+                        <option value="rj">rio de janeiro</option>
+                    </optgroup>
+            </select>
+        </p>
+    </form>
+</body>
+</html>
