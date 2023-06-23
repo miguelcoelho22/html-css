@@ -33,7 +33,7 @@ span#menu:hover {
     background-color: white;
     color: black;
 }
-menu  a {
+menu  > ul > li > a {
     background-color: darkslategray;
     color: white;
     text-decoration: none;
